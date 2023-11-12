@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const authMiddlewers = require("../middlewares/authMiddlewers");
-const authMiddlewers = require("../controllers/locationController");
+const locationController = require("../controllers/locationController");
 router.use(authMiddlewers.protect);
-authController.restrictTo("admin"),
+authMiddlewers.restrictTo("admin"),
   router.route("/region").get(locationController.getAllRegion);
 router
   .route("/")
