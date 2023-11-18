@@ -130,9 +130,6 @@ $ npm start
 - `DELETE /reviews/:id`: Deletes a specific review.
 
 These API endpoints allow interaction with the food delivery system, enabling the retrieval, creation, updating, and deletion of various entities, such as restaurants, locations, users, orders, products, delivery persons, and reviews. By utilizing these endpoints, users can browse restaurants, place orders, rate their experiences, and more.
-
-Please note that the actual implementation of these endpoints may vary depending on the specific requirements and technologies used in the food delivery system.
-
 Please refer to the API documentation for more details on request and response formats.
 
 ## Setting Up .env File
