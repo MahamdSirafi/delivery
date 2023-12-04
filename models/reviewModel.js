@@ -19,7 +19,7 @@ const reviewSchema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    default: Date.now,
+    default: Date.now(),
   },
   order: {
     type: mongoose.Schema.ObjectId,
